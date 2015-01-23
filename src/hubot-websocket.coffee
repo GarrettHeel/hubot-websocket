@@ -1,12 +1,10 @@
-Robot           = require '../robot'
-Adapter         = require '../adapter'
-{TextMessage}   = require '../message'
-http            = require 'http'
-WebSocketServer = require('ws').Server
-HttpClient      = require 'scoped-http-client'
+{Robot, Adapter, TextMessage} = require 'hubot'
+http                          = require 'http'
+WebSocketServer               = require('ws').Server
+HttpClient                    = require 'scoped-http-client'
 
-PROXY_HOST      = process.env.PROXY_HOST
-PROXY_PORT      = process.env.PROXY_PORT
+PROXY_HOST = process.env.PROXY_HOST
+PROXY_PORT = process.env.PROXY_PORT
 
 
 class WebSocketAdapter extends Adapter

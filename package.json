@@ -1,0 +1,26 @@
+{
+  "name": "hubot-websocket",
+  "version": "0.0.1",
+  "author": "Garrett Heel",
+  "keywords": [
+    "github hubot websocket adapter"
+  ],
+  "description": "A websocket adapter for Hubot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GarrettHeel/hubot-websocket.git"
+  },
+  "dependencies": {
+    "hubot": ">=2.3.0",
+    "ws": "0.7.0"
+  },
+  "devDependencies": {
+    "coffee-script": "1.1.3"
+  },
+  "main": "./src/hubot-websocket",
+  "engine": "node > 0.6.0 < 0.7.0",
+  "engines": {
+    "node": "*"
+  }
+}

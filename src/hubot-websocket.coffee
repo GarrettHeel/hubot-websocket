@@ -1,4 +1,3 @@
-Readline = require 'readline-history'
 Robot           = require '../robot'
 Adapter         = require '../adapter'
 {TextMessage}   = require '../message'

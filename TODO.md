@@ -1,0 +1,1 @@
+* Add support for bots in multiple rooms. Will have to store clients by room name and make sure we only respond to the correct room.
